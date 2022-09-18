@@ -1,0 +1,3 @@
+[submodule "workspace/catkin_ws/src/GIGACHA-TensorRT"]
+	path = workspace/catkin_ws/src/GIGACHA-TensorRT
+	url = https://github.com/Hello-Hyuk/GIGACHA-TensorRT.git

@@ -1,0 +1,10 @@
+FROM tlsdusrb123/all_trts
+ARG DEBIAN_FRONTEND=noninteractive
+
+WORKDIR /workspace
+
+# RUN echo "./run_yolo_sign0.sh" >> ~/.bashrc
+RUN echo "export ROS_MASTER_URI=http://172.17.0.3:11311" >> ~/.bashrc
+RUN echo "export ROS_HOSTNAME=172.17.0.1" >> ~/.bashrc
+
+RUN source ~/.bashrc

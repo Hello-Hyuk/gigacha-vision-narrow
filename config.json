@@ -1,0 +1,15 @@
+{
+    "one-machine":
+    {
+        "ROS_MASTER_URI": "http://localhost:11311",
+        "ROS_HOSTNAME": "localhost"
+
+    },
+
+    "two-machine":
+    {
+        "ROS_MASTER_URI": "http://172.17.0.3:11311",
+        "ROS_HOSTNAME": "172.17.0.1"
+
+    }        
+}
